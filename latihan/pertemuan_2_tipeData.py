@@ -1,4 +1,7 @@
-# Variabel adalah tempat menyimpan data # menaruh / assignment nilai # di python tidak perlu deklarasi  
+# Variabel adalah tempat menyimpan data 
+# # menaruh / assignment nilai 
+# # di python tidak perlu deklarasi  
+
 a = 10 
 x = 5 
 panjang = 1000 
@@ -65,37 +68,28 @@ print("- bertipe:", type(data_c_double))
 # tipe data = int, float, str, bool
 
 # INTEGER ke Tipe data lain
-
 data_int = 9
-
 data_float = float(data_int)
 data_str = str(data_int)
 data_bool = bool(data_int) #akan false jika nilai integer = 0
-
 print("data = ", data_float, "type = ", type(data_float))
 print("data = ", data_str, "type = ", type(data_str))
 print("data = ", data_bool, "type = ", type(data_bool))
 
 # FLOAT ke Tipe data lain
-
 data_float = 9.2
-
 data_int = int(data_float)
 data_str = str(data_float)
 data_bool = bool(data_float) #akan false jika nilai float = 0
-
 print("data = ", data_int, "type = ", type(data_int))
 print("data = ", data_str, "type = ", type(data_str))
 print("data = ", data_bool, "type = ", type(data_bool))
 
 # STRING ke Tipe data lain
-
 data_str = "10"
-
 data_int = int(data_str)
 data_float = float(data_str)
 data_bool = bool(data_str)
-
 print("data = ", data_int, "type = ", type(data_int))
 print("data = ", data_float, "type = ", type(data_float))
 print("data = ", data_bool, "type = ", type(data_bool))
