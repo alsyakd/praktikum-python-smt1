@@ -34,13 +34,12 @@ print("\n===============================\n")
 
 ## b. Apakah luas bangunan tersebut lebih luas dari 50? 
 
-if luas > 50:
-    print("Luas bangunan lebih luas dari 50")
+luas_lebih_dari_50 = luas > 50
+print("Apakah luas > 50? :", luas_lebih_dari_50)
 
 ## c. Apakah volume tersebut bernilai 480?
 
-if volume == 480:
-    print("Volume bangunan bernilai 480")
+volume_lebih_dari_480 = volume == 480
+print("Apakah volume == 480? :", volume_lebih_dari_480)
 
 print("\nAUTHOR: ALSYA KANAYA DZIKRA - 2605060075\n")
-
