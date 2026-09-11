@@ -13,3 +13,5 @@ elif usia >= 18 and usia <= 59:
     print("Anda termasuk dewasa")
 else:
     print("Anda termasuk lansia")
+
+print("\nAUTHOR: ALSYA KANAYA DZIKRA - 2605060075\n")
