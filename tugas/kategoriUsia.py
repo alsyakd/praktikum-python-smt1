@@ -1,7 +1,6 @@
 print("PROGRAM MENGKATEGORIKAN USIA\n")
 
-usia = input("Masukkan usia Anda: ")
-usia = int(usia)
+usia = int(input("Masukkan usia Anda: "))
 
 if usia < 0:
     print("Usia tidak valid")
