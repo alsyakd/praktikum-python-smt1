@@ -13,7 +13,7 @@ print(data_tuples[1])
 # data_tuples.append(1)  
 
 # sets (himpunan) 
-data_sets = [10,4,3,2,7,6,5] 
+data_sets = {10,4,3,2,7,6,5}
 print(data_sets)  
 
 print(data_sets[0])  # ini tidak bisa dilakukan karena sets tidak memiliki indeks
